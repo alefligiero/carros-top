@@ -3,9 +3,13 @@
 :root {
   --ct-color-bg-primary: #fff;
   --ct-color-bg-secundary: #f78b00;
+  --ct-color-bg-tertiary: #00285f;
+  --ct-color-bg-card: #ededed;
 
   --ct-color-font-primary: #00285f;
   --ct-color-font-secundary: #fff;
+  --ct-color-font-terciary: #000;
+  --ct-color-font-quaternary: #585858;
 
   --ct-color-font-placeholder: #a7a7a7;
 
@@ -18,11 +22,22 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
+}
+
+html,
+body {
+  background-color: var(--ct-color-bg-primary);
 }
 
 main {
   padding: 0 10px;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding: 0 20px;
+  }
 }
 
 /*-------------------------------------------------------*/
@@ -32,20 +47,4 @@ main {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-}
-
-/*-------------------------------------------------------*/
-/* header styles*/
-
-header {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
-
-header h1 {
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: 700;
 }

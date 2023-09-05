@@ -1,3 +1,13 @@
-#catalog-section {
+#ct-catalog-section {
     padding: 40px 0;
+}
+
+.ct-catalog-search-bar-container {
+    margin-bottom: 40px;
+}
+
+.ct-catalog-cards-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
 }

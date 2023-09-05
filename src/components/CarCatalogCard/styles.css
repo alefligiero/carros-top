@@ -1,0 +1,35 @@
+.ct-catalog-card {
+  background-color: var(--ct-color-bg-card);
+  border-radius: 10px;
+}
+
+.ct-catalog-card-top {
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+}
+
+.ct-catalog-card-top img {
+  width: 220px;
+  height: 165px;
+}
+
+.ct-catalog-card-bottom {
+  padding: 0 20px;
+}
+
+.ct-catalog-card-bottom h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.ct-catalog-card-bottom p {
+    color: var(--ct-color-font-quaternary);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+

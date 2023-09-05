@@ -8,7 +8,7 @@
 }
 
 .ct-search-bar input {
-    width: calc(100% - 80px);
+    width: 100%;
     border-right: none;
     border-radius: 5px 0 0 5px;
     padding: 0 15px;
@@ -24,15 +24,12 @@
 }
 
 .ct-search-bar button {
-    width: 77px;
-    background-color: var(--ct-color-font-primary);
+    background-color: var(--ct-color-bg-tertiary);
     color: var(--ct-color-font-secundary);
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-.ct-search-bar button {
-    border-left: none;
+    padding: 0 11px;
+    border: none;
     border-radius: 0 5px 5px 0;
 }
